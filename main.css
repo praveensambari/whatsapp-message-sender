@@ -1,0 +1,134 @@
+
+
+body {
+    font-family: Verdana,sans-serif
+    
+}
+
+input {
+    width: 20%;
+    border: 2px solid #25D366;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    font-size: 20px;
+}
+
+input:focus {
+  border-color: #25D366;
+  box-shadow: 0px 0px 8px 0px #25D366;
+}
+
+.button {
+    background: #25D366;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 16px;
+    border: 2px solid #25D366;
+    cursor: pointer;
+    
+}
+.btn{
+    
+    background: ;
+    font-size: 16px;
+   
+}
+.select{
+    width:9.5%;
+    border: 2px solid #25D366;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    font-size: 20px;
+    height:45px;
+    
+}
+
+#errorMessage {
+    color: red;
+}
+
+
+
+.primary-light {
+    color: #3498DB;
+}
+
+.primary-dark {
+    color: #30336B;
+}
+
+@media only screen and (max-width: 1080px) {
+    input {
+        width: 60%;
+    }    
+
+    textarea {
+        width: 60%;
+        height: 180px;
+    }
+}
+.cp{
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    input {
+        width: 60%;
+    }    
+
+    textarea {
+        width:60%;
+        height: 160px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size:20px;
+        height: 35px;
+        
+      }
+    .select{
+        width:25%;
+        height:45px
+      }
+      option{
+          width:60%;
+      }
+      .cp{
+          font-size: 11px;
+      }
+      
+  }
+
+  .but {
+    
+    border-radius: 4px;
+    background-color: #00000040;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:16px;
+    padding: 5px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  
+  
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+.w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
